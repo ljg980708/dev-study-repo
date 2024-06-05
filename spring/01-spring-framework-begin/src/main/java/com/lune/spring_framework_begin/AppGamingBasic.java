@@ -8,12 +8,10 @@ public class AppGamingBasic {
 
     public static void main(String[] args) {
 
-        var marioGame = new MarioGame();
+//        var game = new MarioGame();
+        var game = new ZeldaGame(); // 1. 객체 생성
 
-        var zeldaGame = new ZeldaGame();
-        var gameRunner = new GameRunner(zeldaGame);
+        var gameRunner = new GameRunner(game); // 2. 객체 생성 + 의존성 주입
         gameRunner.run();
-
-
     }
 }
