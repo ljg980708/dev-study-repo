@@ -1,9 +1,9 @@
-package com.lune.spring_framework_begin;
+package com.lune.loose_coupling;
 
-import com.lune.payment.CreditCardProcessor;
-import com.lune.payment.PayPalProcessor;
-import com.lune.payment.PaymentProcessor;
-import com.lune.payment.PaymentService;
+import com.lune.loose_coupling.payment.CreditCardProcessor;
+import com.lune.loose_coupling.payment.PayPalProcessor;
+import com.lune.loose_coupling.payment.PaymentProcessor;
+import com.lune.loose_coupling.payment.PaymentService;
 
 public class AppPayment {
 

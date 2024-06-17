@@ -1,6 +1,7 @@
-package com.lune.payment;
+package com.lune.loose_coupling.payment;
 
 public class PaymentService {
+
     private PaymentProcessor paymentProcessor;
 
     public PaymentService(PaymentProcessor paymentProcessor) {

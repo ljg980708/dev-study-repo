@@ -1,4 +1,4 @@
-package com.lune.payment;
+package com.lune.loose_coupling.payment;
 
 public class PayPalProcessor implements PaymentProcessor {
 
